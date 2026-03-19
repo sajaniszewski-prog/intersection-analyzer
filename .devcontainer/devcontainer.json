@@ -1,1 +1,11 @@
+{
+  "name": "Intersection Analyzer",
+  "image": "mcr.microsoft.com/devcontainers/python:3.10",
+  "postCreateCommand": "pip install -r requirements.txt && sudo apt-get update && sudo apt-get install -y ffmpeg",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter"
+     
 
